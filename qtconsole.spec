@@ -4,14 +4,13 @@
 #
 Name     : qtconsole
 Version  : 4.3.1
-Release  : 5
+Release  : 6
 URL      : http://pypi.debian.net/qtconsole/qtconsole-4.3.1.tar.gz
 Source0  : http://pypi.debian.net/qtconsole/qtconsole-4.3.1.tar.gz
 Summary  : Jupyter Qt console
 Group    : Development/Tools
 License  : BSD-3-Clause-Clear
 Requires: qtconsole-bin
-Requires: qtconsole-legacypython
 Requires: qtconsole-python
 BuildRequires : pbr
 BuildRequires : pip
@@ -33,18 +32,9 @@ Group: Binaries
 bin components for the qtconsole package.
 
 
-%package legacypython
-Summary: legacypython components for the qtconsole package.
-Group: Default
-
-%description legacypython
-legacypython components for the qtconsole package.
-
-
 %package python
 Summary: python components for the qtconsole package.
 Group: Default
-Requires: qtconsole-legacypython
 
 %description python
 python components for the qtconsole package.
@@ -58,15 +48,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505059323
-python2 setup.py build -b py2
+export SOURCE_DATE_EPOCH=1505097337
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1505059323
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
-python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
@@ -77,10 +64,6 @@ echo ----[ mark ]----
 %files bin
 %defattr(-,root,root,-)
 /usr/bin/jupyter-qtconsole
-
-%files legacypython
-%defattr(-,root,root,-)
-/usr/lib/python2*/*
 
 %files python
 %defattr(-,root,root,-)
