@@ -4,7 +4,7 @@
 #
 Name     : qtconsole
 Version  : 4.3.1
-Release  : 6
+Release  : 7
 URL      : http://pypi.debian.net/qtconsole/qtconsole-4.3.1.tar.gz
 Source0  : http://pypi.debian.net/qtconsole/qtconsole-4.3.1.tar.gz
 Summary  : Jupyter Qt console
@@ -48,7 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505097337
+export SOURCE_DATE_EPOCH=1505365419
 python3 setup.py build -b py3
 
 %install
