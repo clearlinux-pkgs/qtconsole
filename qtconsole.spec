@@ -4,7 +4,7 @@
 #
 Name     : qtconsole
 Version  : 4.3.1
-Release  : 10
+Release  : 11
 URL      : http://pypi.debian.net/qtconsole/qtconsole-4.3.1.tar.gz
 Source0  : http://pypi.debian.net/qtconsole/qtconsole-4.3.1.tar.gz
 Summary  : Jupyter Qt console
