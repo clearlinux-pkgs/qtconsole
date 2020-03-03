@@ -4,7 +4,7 @@
 #
 Name     : qtconsole
 Version  : 4.7.0
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/80/a2/9d3b55fd99cd8e8106b10c24d55ce1c1aa530e5daade69142d9bde95bf54/qtconsole-4.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/80/a2/9d3b55fd99cd8e8106b10c24d55ce1c1aa530e5daade69142d9bde95bf54/qtconsole-4.7.0.tar.gz
 Summary  : Jupyter Qt console
@@ -82,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583163813
+export SOURCE_DATE_EPOCH=1583218210
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
