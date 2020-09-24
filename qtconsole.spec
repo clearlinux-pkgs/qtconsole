@@ -4,7 +4,7 @@
 #
 Name     : qtconsole
 Version  : 4.7.7
-Release  : 47
+Release  : 48
 URL      : https://files.pythonhosted.org/packages/83/b0/d20922f38669a06e433b6873031c7b826a9ee13d9ec927adf6d229b22467/qtconsole-4.7.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/83/b0/d20922f38669a06e433b6873031c7b826a9ee13d9ec927adf6d229b22467/qtconsole-4.7.7.tar.gz
 Summary  : Jupyter Qt console
