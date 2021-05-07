@@ -4,7 +4,7 @@
 #
 Name     : qtconsole
 Version  : 5.1.0
-Release  : 58
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/c1/a4/9ad9ff7e90f0dfe8dfee161c96cf334693cb14ca9f861f89cfc751c74154/qtconsole-5.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c1/a4/9ad9ff7e90f0dfe8dfee161c96cf334693cb14ca9f861f89cfc751c74154/qtconsole-5.1.0.tar.gz
 Summary  : Jupyter Qt console
