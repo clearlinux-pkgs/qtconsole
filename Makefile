@@ -1,5 +1,5 @@
 PKG_NAME := qtconsole
-URL = https://files.pythonhosted.org/packages/87/c4/5b5cfe345486c6d349877131008c7df0b9fae91a5d209db3258670757a95/qtconsole-5.2.1.tar.gz
+URL = https://files.pythonhosted.org/packages/8a/32/684724b225d4a260f904e2add06bdc627209faa6fe71aea8248bb84c967f/qtconsole-5.2.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
